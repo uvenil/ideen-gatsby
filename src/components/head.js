@@ -14,7 +14,11 @@ const Head = ({ title }) => {
     `)
 
     return (
-        <Helmet title={`${title} | ${data.site.siteMetadata.title}`} />
+        <Helmet 
+            title={`${title} | ${data.site.siteMetadata.title}`} 
+        >
+            <base href="http://www.ultra-text.net/" target="_top" rel="noopener noreferrer"/>
+        </Helmet>
     )
 }
 
