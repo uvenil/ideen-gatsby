@@ -60,8 +60,8 @@ Mail: michaelackmann@googlemailcom</span>
       <span>
 Impressum:
         <a
-          href=" www.ultra-text.net/Impressum"
-          runtime_url=" www.ultra-text.net/Impressum"
+          href="impressum"
+        //   runtime_url=" www.ultra-text.net/Impressum"
           target="_blank">
 www.ultra-text.net/Impressum</a>
 </span>
