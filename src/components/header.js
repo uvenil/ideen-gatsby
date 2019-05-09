@@ -59,6 +59,24 @@ const Header = () => {
               Kontakt
             </Link>
           </li>
+          <li>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/impressum"
+            >
+              Impressum
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/datenschutz"
+            >
+              Datenschutz
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
